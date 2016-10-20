@@ -376,7 +376,9 @@ shakaExtern.StreamingConfiguration;
  * @typedef {{
  *   manager: shakaExtern.AbrManager,
  *   enabled: boolean,
- *   defaultBandwidthEstimate: number
+ *   defaultBandwidthEstimate: number,
+ *   viewportWidth: number,
+ *   viewportHeight: number
  * }}
  *
  * @property {shakaExtern.AbrManager} manager
@@ -386,6 +388,10 @@ shakaExtern.StreamingConfiguration;
  * @property {number} defaultBandwidthEstimate
  *   The default bandwidth estimate to use if there is not enough data, in
  *   bit/sec.
+ * @property {number} viewportWidth
+ *   The viewport width in real pixels
+ * @property {number} viewportHeight
+ *   The viewport height in real pixels
  * @exportDoc
  */
 shakaExtern.AbrConfiguration;
