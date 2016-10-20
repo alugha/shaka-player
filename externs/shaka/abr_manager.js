@@ -130,3 +130,13 @@ shakaExtern.AbrManager.prototype.getBandwidthEstimate = function() {};
  */
 shakaExtern.AbrManager.prototype.setDefaultEstimate = function(estimate) {};
 
+
+/**
+ * Set the viewport to be considered for the maximum video
+ * resolution to choose.
+ *
+ * @param {number} width The viewport width in real pixels
+ * @param {number} height The viewport height in real pixels
+ * @exportDoc
+ */
+shakaExtern.AbrManager.prototype.setViewport = function(width, height) {};
